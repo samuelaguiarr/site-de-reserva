@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercicio 01</title>
+
+    <!-- Link Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Link Meu CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Link Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="bg-info-subtle">
+        <nav class="navbar navbar-expand-lg bg-info-subtle">
+            <div class="container">
+                <i class="bi bi-airplane mx-2 fs-5"></i>
+                <a class="navbar-brand fw-bolder" href="#">MYTRIP</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-text-right"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Hospedagem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Passagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Transfers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Disney</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-bolder link-secondary" href="#">Cruzeiros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid row gap-3 my-5 justify-content-center ">
+        <div class="card border-0 col-md-6" style="width: 18rem;">
+            <img src="./images/pexels-james-wheeler-1486974.jpg" class="card-img-top" alt="Paisagem do Canaadá">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Canadá</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn bg-info-subtle fw-bolder">Reservar</a>
+            </div>
+          </div>
+          <div class="card border-0 col-md-6" style="width: 18rem;">
+            <img src="./images/pexels-julie-aagaard-1368502.jpg" class="card-img-top img-fluid" alt="Praia de Portugal">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Portugal</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn bg-info-subtle fw-bolder">Reservar</a>
+            </div>
+          </div>
+          <div class="card border-0 col-md-6" style="width: 18rem;">
+            <img src="./images/pexels-cemil-aybaci-17168372.jpg" class="card-img-top img-fluid" alt="Foto de Nova York">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Nova York</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn bg-info-subtle fw-bolder">Reservar</a>
+            </div>
+          </div>
+          <div class="card border-0 col-md-6" style="width: 18rem;">
+            <img src="./images/pexels-wolfgang-2748018.jpg" class="card-img-top img-fluid" alt="Paisagem da Itália">
+            <div class="card-body">
+              <h5 class="card-title fw-bolder">Itália</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn bg-info-subtle fw-bolder">Reservar</a>
+            </div>
+          </div>
+    </section>
+
+    <section class="background__praia mt-5 position-relative">    
+        <div class="text-center background__praia__titulo d-flex flex-column">
+            <h1 class="text-decoration-none text-white fs-1 fw-bolder" >Cadastre-se para ter acesso às nossas promoções! </h1>
+            <a class="mt-5 bg-info-subtle text-black fw-semibold p-2 rounded text-decoration-none" href="#">Cadastrar</a>
+        </div>
+    </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
